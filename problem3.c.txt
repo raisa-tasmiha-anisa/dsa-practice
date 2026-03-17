@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+	// your code goes here
+int X,N,T;
+scanf("%d" , &T);
+for(int i=1; i<=T ;i++){ //ধরো T = 4
+// i = 1, 1 <= 4? হ্যাঁ → ঢুকবে
+// i = 2, 2 <= 4? হ্যাঁ → ঢুকবে
+// i = 3, 3 <= 4? হ্যাঁ → ঢুকবে
+// i = 4, 4 <= 4? হ্যাঁ → ঢুকবে
+// i = 5, 5 <= 4? না  → বের হয়ে যাবে
+    scanf("%d\n" , &X);
+    scanf("%d\n" , &N);
+    printf("%d\n" , (X/10)*N); //10ta test case er point X. Tahole 1ta test case er point X/10.
+}
+}

@@ -1,0 +1,16 @@
+#include <stdio.h> //input-output er jonno header file
+
+int main() {
+	// your code goes here
+int X,Y,T; // 3ta variable declaration
+
+scanf("%d" , &T); //kotojoner jonno loop cholbe seta input nilam
+
+for(int i=0; i<T ; i++){   //T bar loop cholbe protijoner jonno
+    
+    scanf("%d %d" , &X, &Y); //protijoner X(income) & Y(limit) input nicchi like Rahim,Karim,Mojib er income and koto limit porjonto oder each person ke kono tax dite hobe na.
+
+printf("%d\n", X-Y); //X-Y print korchi.Eta holo minimum investment.
+}
+}
+//Income theke koto investment korle amake tax dite hobe na setar program.MOnimum invest ta ber korbo.income-investment<=limit , income-limit<=investment

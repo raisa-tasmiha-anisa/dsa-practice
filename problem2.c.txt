@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+	
+int x,T;
+scanf("%d" ,&T); //T=kotobar dice chora hobe
+       for(int i=1;i<=T;i++){
+           scanf("%d" ,&x); //x=dice chorar por koto aslo 
+           if(x==6){
+               printf("yes\n");
+           }else{
+               printf("No\n");
+           }
+       }
+} //Ludo তে নতুন token নামাতে হলে 6 আসতে হবে।
+//Chef dice ছুঁড়ল, X আসল।
+//X যদি 6 হয় → নতুন token নামাতে পারবে → YES
+//X যদি 6 না হয় → পারবে না → NO

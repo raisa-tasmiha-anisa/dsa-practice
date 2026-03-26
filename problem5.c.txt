@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+	// your code goes here
+int a,b,x,y;
+scanf("%d %d %d %d" ,&a,&b,&x,&y);\
+    if(a*2+b > x*2+y){
+        printf("messi\n");
+    }
+    else if(a*2+b < x*2+y){
+        printf("ronaldo\n");
+    }else{
+        printf("equal\n");
+    }
+}

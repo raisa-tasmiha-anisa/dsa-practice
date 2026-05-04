@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main(){
+int arr[] = {67,90,95,200,670};
+int n=5 , key = 200;
+int low=0 , high=n-1;
+while(low<=high){
+    int mid = (low+high)/2;
+
+if(arr[mid]==key){
+    printf("%d is found at index %d" ,key, mid);
+    return 0;
+}
+else if(arr[mid] < key){
+   low = mid+1;
+}
+else{
+    high = mid-1;
+}
+}
+printf("not found");
+}
